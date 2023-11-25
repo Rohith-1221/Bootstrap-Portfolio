@@ -1,0 +1,82 @@
+body{
+    font-family:Comfortaa;
+}
+.navbar{
+    background-color: rgb(79, 67, 203);
+}
+.workarea{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    font-size:2rem;
+}
+.navlinks li a{
+    color:#000000;
+}
+.navlinks li a:hover{
+    color:#f00;
+}
+.image1{
+    height:75%;
+    width:65%;
+    margin:0.5rem;
+    border-radius: 2rem;
+}
+tbody, td, tfoot, th, thead, tr{
+    border-style: none;
+}
+
+
+.foot {
+    color: #fff;
+    background: #000;
+}
+.contact ul li{
+    list-style: none;
+    padding:0.5rem;
+}
+.contact ul li a{
+    font-size:1.8rem;
+    color:#0d00ff;
+}
+.contact{
+    margin:1em;
+    font-size:1.1rem;
+}
+.links {
+    font-size:1.1rem;
+    margin:0.8rem;
+}
+.email{
+    margin:1rem;
+}
+.email p{
+    font-size:1.1rem;
+}
+.links ul li{
+    list-style:disc;
+    padding:0.4rem;
+}
+.links ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.links ul li a:hover{
+    color:#7cac5e;
+}
+.cright{
+    padding:0.5rem; 
+    font-size:1.5rem;
+}
+@media (max-width:768px){
+    .logo{
+        font-size:1.6rem;
+    }
+}
+@media (max-width:425px){
+    .logo{
+        font-size:1.3rem;
+    }
+}
