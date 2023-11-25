@@ -2,7 +2,7 @@ body{
     font-family:Comfortaa;
 }
 .navbar{
-    background-color: rgb(79, 67, 203);
+    background-color: rgb(237, 135, 68);
 }
 .workarea{
     display:flex;
@@ -13,11 +13,31 @@ body{
     font-size:2rem;
 }
 .navlinks li a{
+    color:#ffffff;
+}
+.navlinks li ul li a{
     color:#000000;
 }
-.navlinks li a:hover{
-    color:#f00;
+.navlinks li ul li a:hover{
+    color:#ff0000;
 }
+.navlinks li a:hover{
+    color:rgb(0, 255, 13);
+}
+.image{
+    height:500px;
+    object-fit:cover;
+    position:static;
+ }
+ .carousel-caption{
+     justify-content: center;
+ }
+ .carousel-caption h5{
+     font-size: 2rem;
+ }
+ .carousel-caption p{
+     font-size: 1.5rem;
+ }
 .image1{
     height:75%;
     width:65%;
@@ -26,6 +46,9 @@ body{
 }
 tbody, td, tfoot, th, thead, tr{
     border-style: none;
+}
+#perso{
+    margin:1rem;
 }
 
 
@@ -74,9 +97,21 @@ tbody, td, tfoot, th, thead, tr{
     .logo{
         font-size:1.6rem;
     }
+    .carousel-caption h5{
+        font-size: 1.6rem;
+    }
+    .carousel-caption p{
+        font-size: 1.2rem;
+    }
 }
 @media (max-width:425px){
     .logo{
         font-size:1.3rem;
+    }
+    .carousel-caption h5{
+        font-size: 1.2rem;
+    }
+    .carousel-caption p{
+        font-size: 0.8rem;
     }
 }
