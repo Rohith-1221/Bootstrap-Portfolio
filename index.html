@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Comfortaa&family=Jost&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -65,50 +65,48 @@
               <!-- Carousel images with text -->
     <div class="imgages">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
             <img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" class="d-block image col-md-12 col-sm-12" alt="...">
             <div class="carousel-caption d-none d-md-block text-dark">
               <p>Hello! This is Rohith</p>
               <h5>Creative UI Developer and Application developer</h5>              
-              <button type="button" class="btn btn-primary">Hire me</button>
-              <button type="button" class="btn btn-secondary">Download CV</button>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <img src="https://c0.wallpaperflare.com/preview/706/236/897/business-people-boardroom-man.jpg" class="d-block image col-md-12 col-sm-12" alt="...">
-            <div class="carousel-caption d-none d-md-block text-white">            
-              <p>Works on the projects</p>
-              <h5>Designs the creative websites and Workable pages</h5>
-              <button type="button" class="btn btn-primary">Hire Me</button>
-              <button type="button" class="btn btn-secondary">Download CV</button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Hire me
+              </button>             
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1"  aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Contact</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                       Hello! This is Rohith.You can contact me by the details mentioned at the end.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
          <!--personal information-->
           <div class="container-fluid">
             <div id="perso">
             <div class="col-md-12 col-sm-12">
-              <h2 class="text-dark text-center">PERSONAL INFORMAITON</h2>
+              <h2 class="text-danger text-center">PERSONAL INFORMAITON</h2>
             </div>
               <div class="d-lg-flex d-md-flex align-items-center">
                 <div class="col-md-6 col-sm-12">
-                  <h4>About me</h4>
-                  <p>This is Venkata Rohith from mylavaram, Graduated from narasaraopeta engineering college.These are few details about me.</p>
+                  <h4 id="text">About me</h4>
+                  <p id="text">This is Venkata Rohith from mylavaram, Graduated from narasaraopeta engineering college.</p>
                   <table class="table">
                     <thead>
                       <tr>
@@ -137,7 +135,7 @@
                       </tr>
                       <tr>
                         <th>Place</th>
-                        <td>Mylavaram</td>
+                        <td>Mylavaram,Andhra Pradesh</td>
                       </tr>
                     </thead>
                     <tbody>                     
@@ -145,13 +143,68 @@
                     </tbody>
                   </table>                  
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="shadow-lg p-3 mb-5 col-md-6 col-sm-12 bg-body rounded">
                   <img src="https://thumbs.dreamstime.com/b/happy-young-african-man-presenting-pointing-finger-to-copy-space-trendy-black-person-showing-hand-to-introduce-something-male-164739322.jpg" class="image1">
-               </div>
+                </div>
               </div>
               </div>
           </div>
           <hr>
+    <!-- Services -->
+    <div class="container-fluid service">
+      <div class="row">
+          <div class="col-md-12">
+              <h2 class="service-head text-center text-primary">SERVICES</h2>
+              <P class="text-dark servicetext">We provide services related to the projects we are working.some of them mainly
+                 we are working with Full Stack Development,Software Development,Mobile applications.</P>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box">
+                <!-- <i class="fa-solid fa-layer-group"></i> -->
+                <i class="bi bi-boxes"></i>
+                <h3>Web Design</h3>
+                <p class="text-center">Refers to the end-to-end application software development, including the front end and back end.</p>
+            </div>
+        </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <i class="bi bi-laptop"></i>
+                <h3>Website Development</h3>
+                <p class="text-center">To plan, design, develop, integrate, test, manage and evolve software solutions</p>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <i class="bi bi-phone-fill"></i>
+                <h3>Mobile Applications</h3>
+                <p class="text-center">We provide the best software for smartphones, tablets and digital assistants.</p>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box">
+              <i class="bi bi-cpu-fill"></i>
+              <h3>Graphic Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+              <i class="bi bi-display"></i>
+              <h3>UI Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <i class="bi bi-bar-chart"></i>
+          <h3>Data Analysis</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+      </div>
+    </div>
+    <hr>
+
 
   <!-- Footer Section -->
     <div class="container-fluid foot">
@@ -192,7 +245,8 @@
                       15-83,<br>
                       SVS Nagar,<br>
                       Mylavaram,<br>
-                      Andhra Pradesh.<br>
+                      Andhra Pradesh,<br>
+                      India.
                   </address>
                   <ul class="d-flex">
                     <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>

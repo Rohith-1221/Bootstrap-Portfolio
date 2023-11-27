@@ -2,7 +2,7 @@ body{
     font-family:Comfortaa;
 }
 .navbar{
-    background-color: rgb(237, 135, 68);
+    background-color:#151269;
 }
 .workarea{
     display:flex;
@@ -11,11 +11,12 @@ body{
 }
 .logo{
     font-size:2rem;
+    font-family:'Times New Roman', Times, serif;
 }
 .navlinks li a{
     color:#ffffff;
 }
-.navlinks li ul li a{
+.dropdown-menu li a{
     color:#000000;
 }
 .navlinks li ul li a:hover{
@@ -42,13 +43,61 @@ body{
     height:75%;
     width:65%;
     margin:0.5rem;
-    border-radius: 2rem;
+    border-radius:50%;
+}
+#text{
+    font-size: 1.5rem;
 }
 tbody, td, tfoot, th, thead, tr{
     border-style: none;
+    font-size:1.4rem;
 }
 #perso{
     margin:1rem;
+}
+#perso h2{
+    font-size: 2.5rem;
+}
+.service {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.service-head {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom:2rem;
+}
+.servicetext{
+    color:#000;
+    font-size:1.5rem;
+    text-align:center;
+}
+.box {
+    text-align: center;
+    border:0.1rem inset rgb(72, 81, 254);
+    border-radius: 2rem;
+    margin:1rem;
+    padding:1rem;
+    height:16rem;
+}
+.box:hover{
+    color:#fff;
+    background-color:rgb(39, 3, 41);
+}
+.box:hover p{
+    color:#fff;
+}
+.box p{
+    font-size: 1rem;
+    color:#000;
+}
+.box h3{
+    font-size:1.5rem;
+}
+.bi{
+    color:lightslategray;
+    font-size: 2.5rem;
+    margin-bottom:1rem;
 }
 
 
@@ -93,7 +142,7 @@ tbody, td, tfoot, th, thead, tr{
     padding:0.5rem; 
     font-size:1.5rem;
 }
-@media (max-width:768px){
+@media (max-width:769px){
     .logo{
         font-size:1.6rem;
     }
@@ -103,8 +152,32 @@ tbody, td, tfoot, th, thead, tr{
     .carousel-caption p{
         font-size: 1.2rem;
     }
+    .service-head {
+        font-size: 1.6rem;
+    }
+    .servicetext{
+        font-size:1.2rem;
+    }
+    .box{
+        height:15rem;
+    }
+    .box p{
+        font-size: 0.8rem;
+    }
+    .box h3{
+        font-size:1.3rem;
+    }
+    #text{
+        font-size: 1.3rem;
+    }
+    td,th{
+        font-size:1.1rem;
+    }
+    #perso h2{
+        font-size: 2rem;
+    }
 }
-@media (max-width:425px){
+@media (max-width:426px){
     .logo{
         font-size:1.3rem;
     }
@@ -113,5 +186,29 @@ tbody, td, tfoot, th, thead, tr{
     }
     .carousel-caption p{
         font-size: 0.8rem;
+    }
+    .service-head {
+        font-size: 1.4rem;
+    }
+    .servicetext{
+        font-size:1rem;
+    }
+    .box{
+        height:12rem;
+    }
+    .box p{
+        font-size: 0.8rem;
+    }
+    .box h3{
+        font-size:1.2rem;
+    }
+    #text{
+        font-size: 1rem;
+    }
+    td,th{
+        font-size:0.8rem;
+    }
+    #perso h2{
+        font-size: 1.7rem;
     }
 }
