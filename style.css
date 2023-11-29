@@ -2,7 +2,7 @@ body{
     font-family:Comfortaa;
 }
 .navbar{
-    background-color:#151269;
+    background-color:rgb(120, 66, 0);
 }
 .workarea{
     display:flex;
@@ -26,7 +26,7 @@ body{
     color:rgb(0, 255, 13);
 }
 .image{
-    height:500px;
+    height:400px;
     object-fit:cover;
     position:static;
  }
@@ -40,7 +40,7 @@ body{
      font-size: 1.5rem;
  }
 .image1{
-    height:75%;
+    height:65%;
     width:65%;
     margin:0.5rem;
     border-radius:50%;
@@ -56,14 +56,14 @@ tbody, td, tfoot, th, thead, tr{
     margin:1rem;
 }
 #perso h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .service {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 .service-head {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     margin-bottom:2rem;
 }
@@ -74,7 +74,7 @@ tbody, td, tfoot, th, thead, tr{
 }
 .box {
     text-align: center;
-    border:0.1rem inset rgb(72, 81, 254);
+    border:0.1rem ridge rgb(231, 162, 79);
     border-radius: 2rem;
     margin:1rem;
     padding:1rem;
@@ -82,7 +82,7 @@ tbody, td, tfoot, th, thead, tr{
 }
 .box:hover{
     color:#fff;
-    background-color:rgb(39, 3, 41);
+    background-color:rgb(48, 71, 121);
 }
 .box:hover p{
     color:#fff;
@@ -99,6 +99,27 @@ tbody, td, tfoot, th, thead, tr{
     font-size: 2.5rem;
     margin-bottom:1rem;
 }
+.about{
+    border:0.1rem solid #ffffff;
+    margin:2rem;
+}
+.about .bi{
+    color:rgb(231, 162, 79);
+    font-size: 3rem;
+    margin-bottom:0.5rem;
+}
+.project{
+    width:15rem;
+    height:20rem;
+    border:0.1rem solid rgb(231, 162, 79);
+}
+.project p{
+    font-size:1.2rem;
+}
+.cimage{
+    height:9rem;
+}
+
 
 
 .foot {
@@ -111,7 +132,7 @@ tbody, td, tfoot, th, thead, tr{
 }
 .contact ul li a{
     font-size:1.8rem;
-    color:#0d00ff;
+    color:rgb(255, 157, 37);
 }
 .contact{
     margin:1em;
@@ -139,10 +160,10 @@ tbody, td, tfoot, th, thead, tr{
     color:#7cac5e;
 }
 .cright{
-    padding:0.5rem; 
-    font-size:1.5rem;
+    padding:0.3rem; 
+    font-size:1.3rem;
 }
-@media (max-width:769px){
+@media (max-width:768px){
     .logo{
         font-size:1.6rem;
     }
@@ -167,6 +188,26 @@ tbody, td, tfoot, th, thead, tr{
     .box h3{
         font-size:1.3rem;
     }
+    .about{
+        margin-left:7rem;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+    .about .bi{
+        font-size: 2.5rem;
+    }
+    .project{
+        width:14rem;
+        height:18rem;
+        /* margin-left:5rem; */
+    }
+    .project p{
+        font-size:1.1rem;
+    }
+    .cimage{
+        height:7rem;
+    }
     #text{
         font-size: 1.3rem;
     }
@@ -177,7 +218,7 @@ tbody, td, tfoot, th, thead, tr{
         font-size: 2rem;
     }
 }
-@media (max-width:426px){
+@media (max-width:425px){
     .logo{
         font-size:1.3rem;
     }
@@ -201,6 +242,26 @@ tbody, td, tfoot, th, thead, tr{
     }
     .box h3{
         font-size:1.2rem;
+    }
+    .about{
+        margin-left:5rem;
+    }
+    .about p{
+        font-size: 0.8rem;
+    }
+    .about .bi{
+        font-size: 2rem;
+    }
+    .project{
+        width:16rem;
+        height:18rem;
+        margin-left:3rem;
+    }
+    .project p{
+        font-size:1rem;
+    }
+    .cimage{
+        height:9rem;
     }
     #text{
         font-size: 1rem;
