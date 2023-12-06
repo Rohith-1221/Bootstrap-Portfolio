@@ -25,25 +25,34 @@ body{
 .navlinks li a:hover{
     color:rgb(0, 255, 13);
 }
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 150px;
+  left:70px;
+}
+.bottom-left h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:3rem;
+    color:rgb(0, 0, 0);
+}
+.bottom-left p{
+    font-size:2rem;
+    color:rgb(36, 37, 37);
+}
 .image{
-    height:400px;
-    object-fit:cover;
-    position:static;
- }
- .carousel-caption{
-     justify-content: center;
- }
- .carousel-caption h5{
-     font-size: 2rem;
- }
- .carousel-caption p{
-     font-size: 1.5rem;
- }
+    /* height:500px; */
+    width:100%;
+}
 .image1{
-    height:65%;
-    width:65%;
+    height:75%;
+    width:75%;
     margin:0.5rem;
-    border-radius:50%;
+    border-radius:30%;
 }
 #text{
     font-size: 1.5rem;
@@ -58,14 +67,17 @@ tbody, td, tfoot, th, thead, tr{
 #perso h2{
     font-size: 2rem;
 }
+
+
+
 .service {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .service-head {
     font-size: 2rem;
     text-align: center;
-    margin-bottom:2rem;
+    margin-bottom:0.5rem;
 }
 .servicetext{
     color:#000;
@@ -112,6 +124,9 @@ tbody, td, tfoot, th, thead, tr{
     width:15rem;
     height:20rem;
     border:0.1rem solid rgb(231, 162, 79);
+}
+.project:hover{
+    color:rgb(6, 162, 0);
 }
 .project p{
     font-size:1.2rem;
@@ -163,15 +178,18 @@ tbody, td, tfoot, th, thead, tr{
     padding:0.3rem; 
     font-size:1.3rem;
 }
+@media (max-width:1024px){
+    .bottom-left{
+        bottom:50px;
+        left:20px;
+    }
+}
 @media (max-width:768px){
     .logo{
         font-size:1.6rem;
     }
-    .carousel-caption h5{
-        font-size: 1.6rem;
-    }
-    .carousel-caption p{
-        font-size: 1.2rem;
+    .bottom-left {
+       display: none;
     }
     .service-head {
         font-size: 1.6rem;
@@ -200,7 +218,6 @@ tbody, td, tfoot, th, thead, tr{
     .project{
         width:14rem;
         height:18rem;
-        /* margin-left:5rem; */
     }
     .project p{
         font-size:1.1rem;
@@ -221,12 +238,6 @@ tbody, td, tfoot, th, thead, tr{
 @media (max-width:425px){
     .logo{
         font-size:1.3rem;
-    }
-    .carousel-caption h5{
-        font-size: 1.2rem;
-    }
-    .carousel-caption p{
-        font-size: 0.8rem;
     }
     .service-head {
         font-size: 1.4rem;
