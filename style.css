@@ -2,7 +2,7 @@ body{
     font-family:Comfortaa;
 }
 .navbar{
-    background-color:rgb(120, 66, 0);
+    background-color:rgb(182, 101, 2);
 }
 .workarea{
     display:flex;
@@ -67,8 +67,19 @@ tbody, td, tfoot, th, thead, tr{
 #perso h2{
     font-size: 2rem;
 }
-
-
+.rate{
+    height:1.2rem;
+    border:0.1rem solid rgb(231, 162, 79);
+}
+#skills h2{
+    font-size:2rem;
+}
+#skills p{
+    font-size:1.5rem;
+}
+#skills h5{
+    font-size:1.5rem;
+}
 
 .service {
     padding-top: 1rem;
@@ -122,7 +133,7 @@ tbody, td, tfoot, th, thead, tr{
 }
 .project{
     width:15rem;
-    height:20rem;
+    height:22rem;
     border:0.1rem solid rgb(231, 162, 79);
 }
 .project:hover{
@@ -134,9 +145,6 @@ tbody, td, tfoot, th, thead, tr{
 .cimage{
     height:9rem;
 }
-
-
-
 .foot {
     color: #fff;
     background: #000;
@@ -191,6 +199,15 @@ tbody, td, tfoot, th, thead, tr{
     .bottom-left {
        display: none;
     }
+    #skills h2{
+        font-size:1.6rem;
+    }
+    #skills p{
+        font-size:1.2rem;
+    }
+    #skills h5{
+        font-size:1.4rem;
+    }
     .service-head {
         font-size: 1.6rem;
     }
@@ -238,6 +255,15 @@ tbody, td, tfoot, th, thead, tr{
 @media (max-width:425px){
     .logo{
         font-size:1.3rem;
+    }
+    #skills h2{
+        font-size:1.4rem;
+    }
+    #skills p{
+        font-size:1rem;
+    }
+    #skills h5{
+        font-size:1.4rem;
     }
     .service-head {
         font-size: 1.4rem;
