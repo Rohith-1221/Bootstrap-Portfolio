@@ -20,40 +20,21 @@
               <span class="navbar-toggler-icon"></span>
             </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navlinks">
+                <ul class="navbar-nav me-auto  mb-lg-0 navlinks">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#banner">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#perso">About Me</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Skills
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Html</a></li>
-                        <li><a class="dropdown-item" href="#">Css</a></li>
-                        <li><a class="dropdown-item" href="#">Bootstrap</a></li>
-                        <li><a class="dropdown-item" href="#">Javascript</a></li>
-                      </ul>
+                    <a class="nav-link" href="#skills">Skills</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Services
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#service">Web Design</a></li>
-                      <li><a class="dropdown-item" href="#service">Web Application</a></li>
-                      <li><a class="dropdown-item" href="#service">Porrtfolios</a></li>
-                      <li><a class="dropdown-item" href="#service">Ui Design</a></li>
-                    </ul>
+                    <a class="nav-link" href="#product">Products</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#project">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -63,31 +44,31 @@
             </div>
           </nav>
        <!-- banner image and text -->
-       <div class="banner">
+       <div class="banner" id="banner">
         <img src="/images/rohith.jpg" alt="Snow" style="width:100%;">
         <div class="bottom-left">
           <p>Hello, This is</p>
           <h2>VENKATA ROHITH</h2>
           <p>Creative UI and Website Developer</p>
-          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Hire me
-          </button>             
-          <div class="modal fade" id="exampleModal" tabindex="-1"  aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Contact</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                   Hello! This is Rohith.You can contact me by the details mentioned at the end.
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">HIRE ME</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Personal contact Details:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-dark">
+                <h5>
+                Email:rohithpeddireddy24@gmail.com<br>
+                Contact No:6300896237.</h5>
+              </div>
+              <div class="modal-footer">
+                 <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
          <!--personal information-->
@@ -98,8 +79,8 @@
             </div>
               <div class="d-lg-flex d-md-flex align-items-center">
                 <div class="col-md-6 col-sm-12 col-lg-7">
-                  <h4 id="text">About me</h4>
-                  <p id="text">This is Venkata Rohith from mylavaram, Graduated from narasaraopeta engineering college.</p>
+                  <h1 id="texth">ABOUT ME</h1>
+                  <p id="text">This is Venkata Rohith from mylavaram, Graduated from narasaraopeta engineering college.Some of my hobies are Bike riding,outdoor games.</p>
                   <table class="table">
                     <thead>
                       <tr>
@@ -147,7 +128,7 @@
     <div class="container-fluid p-3">
       <div class="row" id="skills">
            <div class="col-md-12 col-sm-12 col-lg-12">
-                <h2 class="text-dark text-center">Skills</h2>
+                <h2 class="text-dark text-center">SKILLS</h2>
                 <P class="text-dark text-center">These are the details and how much i learnt my skills percentage is shown as below...</P>
            </div>
            <div class="col-sm-6 col-md-4 col-lg-3 mb-1">
@@ -185,14 +166,14 @@
        </div>
        </div>
       <hr>
-    <!-- Services -->
-    <div class="container-fluid service">
-      <div class="row" id="service">
+    <!-- Products -->
+    <div class="container-fluid product">
+      <div class="row" id="product">
           <div class="col-md-12">
-              <h2 class="service-head text-center text-primary">SERVICES</h2>
-              <P class="text-dark servicetext">We provide services related to the projects we are working.some of them mainly
-                 we are working with Full Stack Development,Software Development,Mobile applications.</P>
-          </div>
+              <h2 class="product-head text-center text-primary">PRODUCTS</h2>
+              <P class="text-dark producttext">I am able to provide my best related to the projects.Mainly
+                 working on the Full Stack Development,UI designing</P>
+          </div>          
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="box border-opacity-50">
                 <i class="bi bi-boxes"></i>
@@ -200,6 +181,13 @@
                 <p class="text-center">Refers to the end-to-end application software development, including the front end and back end.</p>
             </div>
           </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box border-opacity-50">
+                <i class="bi bi-display"></i>
+                <h3>UI Designing</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="box border-opacity-50">
                 <i class="bi bi-laptop"></i>
@@ -213,59 +201,11 @@
                 <h3>Frontend Applications</h3>
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
-          </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box border-opacity-50">
-              <i class="bi bi-display"></i>
-              <h3>UI Designing</h3>
-              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-      </div>
+          </div>        
       </div>
     </div>
     <hr>
-  <!--aboutme -->
-  <div class="container-fluid ">
-  <div class="row">
-      <div class="col-sm-6 col-md-6 col-lg-3">
-        <div class="about text-dark text-center d-flex">
-            <i class="bi bi-briefcase"></i>
-            <div style="margin-left: 1rem;">
-            <h3>412</h3>
-            <p>Projects</p>
-            </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-6 col-lg-3">
-        <div class="about text-dark text-center d-flex">
-            <i class="bi bi-people-fill"></i>
-            <div style="margin-left: 1rem;">
-            <h3>214</h3>
-            <p>Happy Clients</p>
-            </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-6 col-lg-3">
-        <div class="about text-dark text-center d-flex">
-            <i class="bi bi-graph-up-arrow"></i>
-            <div style="margin-left: 1rem;">
-            <h3>2</h3>
-            <p>Years of Experience</p>
-            </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-6 col-lg-3">
-        <div class="about text-dark text-center d-flex">
-            <i class="bi bi-cup-hot"></i>
-            <div style="margin-left: 1rem;">
-            <h3>45</h3>
-            <p>Cups of coffee</p>
-            </div>
-        </div>
-      </div>
-  </div>
-  </div>
-  <hr>
+  
   <div class="container-fluid" id="project">
       <div class="row">
           <div class="col-md-12">
@@ -274,19 +214,21 @@
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card project mb-3">
-              <img src="https://t4.ftcdn.net/jpg/02/25/82/97/360_F_225829756_t3zKb8mU9NeJaWO7LjniYGSzjGbq9BYs.jpg" class="card-img-top cimage" alt="...">
+              <img src="https://unbounce.com/photos/40-LP-examples-of-2023-horizontal.jpg" class="card-img-top cimage" alt="...">
               <div class="card-body text-center ">
-                <p class="card-text">Creation Execution of Responsive web layout.</p>
-                <h4 class="card-text">Website Design</h4>
+                <p class="card-text">Interactive and useful landing pages for companies.</p>
+                <h4 class="card-text">Landing pages</h4>
+                <button class="btn btn-primary link"><a href="https://vercel.com/venkata-rohiths-projects/landing-page">link</a></button>
               </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card project mb-3">
-              <img src="https://us.123rf.com/450wm/nexusplexus/nexusplexus1607/nexusplexus160701683/59628670-background-image-num%C3%A9rique-pr%C3%A9sentant-concept-global-de-connexion.jpg" class="card-img-top cimage" alt="...">
+              <img src="https://t4.ftcdn.net/jpg/02/25/82/97/360_F_225829756_t3zKb8mU9NeJaWO7LjniYGSzjGbq9BYs.jpg" class="card-img-top cimage" alt="...">
               <div class="card-body text-center ">
-                <p class="card-text">Creating attractive websites for clients.</p>
-                <h4 class="card-text">Website Development</h4>
+                <p class="card-text">Creation Execution of Responsive web layout.</p>
+                <h4 class="card-text">Website Design</h4>
+                <button class="btn btn-primary link mt-4"><a href="https://vercel.com/venkata-rohiths-projects/bootstrap-webpage">link</a></button>
               </div>
             </div>
           </div>
@@ -296,6 +238,7 @@
             <div class="card-body text-center">
               <p class="card-text">Performing and creating responsive UI designs.</p>
               <h4 class="card-text">UI Design</h4>
+              <button class="btn btn-primary link mt-4"><a href="#">link</a></button>
             </div>
           </div>
       </div>
@@ -305,27 +248,10 @@
           <div class="card-body text-center ">
             <p class="card-text">Attractive web pages to the clients.</p>
             <h4 class="card-text">Frontend pages</h4>
+            <button class="btn btn-primary link mt-5"><a href="#">link</a></button>
           </div>
         </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="card project mb-3">
-          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--jCz-sZBE--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m61dotp8kq7ltylx04y.png" class="card-img-top cimage" alt="...">
-          <div class="card-body text-center ">
-            <p class="card-text">Creation for the person details linked to resume.</p>
-            <h4 class="card-text">Portfolios</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="card project mb-3">
-          <img src="https://unbounce.com/photos/40-LP-examples-of-2023-horizontal.jpg" class="card-img-top cimage" alt="...">
-          <div class="card-body text-center ">
-            <p class="card-text">Interactive and useful landing pages for companies.</p>
-            <h4 class="card-text">Landing pages</h4>
-          </div>
-        </div>
-      </div>
+      </div>      
     </div>
   </div>
     <hr>
@@ -345,26 +271,15 @@
                 </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3">
-              <div class="footer-widget links">
-                  <h5>SERVICES</h5>
-                  <ul>
-                      <li><a href="">Web Design</a></li>
-                      <li><a href="">Website Development</a></li>
-                      <li><a href="">Frontend Design</a></li>
-                      <li><a href="">UI Design</a></li>
-                  </ul>
-              </div>
-          </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
                 <div class="footer-widget email">
-                  <h5>DETAILS</h5>
+                  <h5> PERSONAL DETAILS</h5>
                   <h6>Need to contact personally.</h6>
                   <p>rohithp22@gmail.com<br>9874561230</p>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="footer-widget contact">
-                  <h5>Contact</h5>
+                  <h5>CONTACT</h5>
                   <address>
                       15-83,<br>
                       SVS Nagar,<br>
@@ -378,13 +293,19 @@
                     <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
               </div>
-          </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="map">
+                <h5>REACHOUT TO ME BY MAPS</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d30562.68003942358!2d80.61394188699543!3d16.76000042045783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDQ1JzMxLjciTiA4MMKwMzgnMjQuMCJF!5e0!3m2!1sen!2sin!4v1702033699062!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
         </div>
       </div>
       <div class="container-fluid">
       <div class="row">
       <div class="text-center text-white bg-secondary cright">
-        <p>copyright@2023Rohith.All rights are reserved.</p>
+        <p>copyright@2023 Rohith.All rights are reserved.</p>
       </div>
       </div>
       </div>

@@ -10,8 +10,12 @@ body{
     align-items: center;
 }
 .logo{
-    font-size:2rem;
+    font-size:1.8rem;
     font-family:'Times New Roman', Times, serif;
+    margin-right: 17rem;
+}
+.navlinks{
+    float:right;
 }
 .navlinks li a{
     color:#ffffff;
@@ -38,14 +42,13 @@ body{
 .bottom-left h2{
     font-family:'Times New Roman', Times, serif;
     font-size:3rem;
-    color:rgb(0, 0, 0);
+    color:rgb(0,0,0);
 }
 .bottom-left p{
     font-size:2rem;
-    color:rgb(36, 37, 37);
+    color:rgb(0,0,0);
 }
 .image{
-    /* height:500px; */
     width:100%;
 }
 .image1{
@@ -53,6 +56,9 @@ body{
     width:75%;
     margin:0.5rem;
     border-radius:30%;
+}
+#texth{
+    font-size: 2rem;
 }
 #text{
     font-size: 1.5rem;
@@ -69,7 +75,7 @@ tbody, td, tfoot, th, thead, tr{
 }
 .rate{
     height:1.2rem;
-    border:0.1rem solid rgb(231, 162, 79);
+    border:0.1rem solid rgb(112, 76, 254);
 }
 #skills h2{
     font-size:2rem;
@@ -81,16 +87,16 @@ tbody, td, tfoot, th, thead, tr{
     font-size:1.5rem;
 }
 
-.service {
+.product{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.service-head {
+.product-head {
     font-size: 2rem;
     text-align: center;
     margin-bottom:0.5rem;
 }
-.servicetext{
+.producttext{
     color:#000;
     font-size:1.5rem;
     text-align:center;
@@ -122,18 +128,9 @@ tbody, td, tfoot, th, thead, tr{
     font-size: 2.5rem;
     margin-bottom:1rem;
 }
-.about{
-    border:0.1rem solid #ffffff;
-    margin:2rem;
-}
-.about .bi{
-    color:rgb(231, 162, 79);
-    font-size: 3rem;
-    margin-bottom:0.5rem;
-}
 .project{
     width:15rem;
-    height:22rem;
+    height:25rem;
     border:0.1rem solid rgb(231, 162, 79);
 }
 .project:hover{
@@ -144,6 +141,15 @@ tbody, td, tfoot, th, thead, tr{
 }
 .cimage{
     height:9rem;
+}
+.link{
+    height:2rem;
+    width:5rem;
+    margin-bottom:1rem;
+}
+.link a{
+    text-decoration: none;
+    color:#fff;
 }
 .foot {
     color: #fff;
@@ -182,8 +188,13 @@ tbody, td, tfoot, th, thead, tr{
 .links ul li a:hover{
     color:#7cac5e;
 }
+.map{
+    margin-top:0.5rem;
+    height:10rem;
+    width:10rem;
+}
 .cright{
-    padding:0.3rem; 
+    padding:0.1rem; 
     font-size:1.3rem;
 }
 @media (max-width:1024px){
@@ -195,6 +206,7 @@ tbody, td, tfoot, th, thead, tr{
 @media (max-width:768px){
     .logo{
         font-size:1.6rem;
+        margin-right: 1rem;
     }
     .bottom-left {
        display: none;
@@ -208,10 +220,10 @@ tbody, td, tfoot, th, thead, tr{
     #skills h5{
         font-size:1.4rem;
     }
-    .service-head {
+    .product-head {
         font-size: 1.6rem;
     }
-    .servicetext{
+    .producttext{
         font-size:1.2rem;
     }
     .box{
@@ -223,18 +235,9 @@ tbody, td, tfoot, th, thead, tr{
     .box h3{
         font-size:1.3rem;
     }
-    .about{
-        margin-left:7rem;
-    }
-    .about p{
-        font-size: 1rem;
-    }
-    .about .bi{
-        font-size: 2.5rem;
-    }
     .project{
         width:14rem;
-        height:18rem;
+        height:21rem;
     }
     .project p{
         font-size:1.1rem;
@@ -255,6 +258,7 @@ tbody, td, tfoot, th, thead, tr{
 @media (max-width:425px){
     .logo{
         font-size:1.3rem;
+        margin-right: 1rem;
     }
     #skills h2{
         font-size:1.4rem;
@@ -265,10 +269,10 @@ tbody, td, tfoot, th, thead, tr{
     #skills h5{
         font-size:1.4rem;
     }
-    .service-head {
+    .product-head {
         font-size: 1.4rem;
     }
-    .servicetext{
+    .producttext{
         font-size:1rem;
     }
     .box{
@@ -280,18 +284,9 @@ tbody, td, tfoot, th, thead, tr{
     .box h3{
         font-size:1.2rem;
     }
-    .about{
-        margin-left:5rem;
-    }
-    .about p{
-        font-size: 0.8rem;
-    }
-    .about .bi{
-        font-size: 2rem;
-    }
     .project{
         width:16rem;
-        height:18rem;
+        height:21rem;
         margin-left:3rem;
     }
     .project p{
