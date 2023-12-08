@@ -130,7 +130,7 @@ tbody, td, tfoot, th, thead, tr{
 }
 .project{
     width:15rem;
-    height:25rem;
+    height:23rem;
     border:0.1rem solid rgb(231, 162, 79);
 }
 .project:hover{
@@ -138,6 +138,9 @@ tbody, td, tfoot, th, thead, tr{
 }
 .project p{
     font-size:1.2rem;
+}
+.bl{
+    margin-top: 3rem;
 }
 .cimage{
     height:9rem;
@@ -189,9 +192,9 @@ tbody, td, tfoot, th, thead, tr{
     color:#7cac5e;
 }
 .map{
-    margin-top:0.5rem;
+    margin:1rem;
     height:10rem;
-    width:10rem;
+    /* width:10rem; */
 }
 .cright{
     padding:0.1rem; 
@@ -291,6 +294,9 @@ tbody, td, tfoot, th, thead, tr{
     }
     .project p{
         font-size:1rem;
+    }
+    .bl{
+        margin-top: 2rem;
     }
     .cimage{
         height:9rem;
