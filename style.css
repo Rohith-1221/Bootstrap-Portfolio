@@ -52,7 +52,7 @@ body{
     width:100%;
 }
 .image1{
-    height:75%;
+    /* height:75%; */
     width:75%;
     margin:0.5rem;
     border-radius:30%;
@@ -205,6 +205,10 @@ tbody, td, tfoot, th, thead, tr{
         bottom:50px;
         left:20px;
     }
+    .image1{
+        height:35rem;
+        width:25rem;
+    }
 }
 @media (max-width:768px){
     .logo{
@@ -213,6 +217,10 @@ tbody, td, tfoot, th, thead, tr{
     }
     .bottom-left {
        display: none;
+    }
+    .image1{
+        height:30rem;
+        width:20rem;
     }
     #skills h2{
         font-size:1.6rem;
