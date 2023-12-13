@@ -20,9 +20,6 @@ body{
 .navlinks li a{
     color:#ffffff;
 }
-.dropdown-menu li a{
-    color:#000000;
-}
 .navlinks li ul li a:hover{
     color:#ff0000;
 }
